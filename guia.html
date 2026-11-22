@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Previsão de Fenômenos Climático</title>
+    <title>Guia de estilo - Es el Clima</title>
+
+    <!-- Fonte do texto (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-     <script src="index.js" defer></script>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
-<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="guia.css">
 </head>
 <body>
-    <header >
+    <header>
         <h1>Es el Clima</h1>
-        <nav >
+        <nav>
             <ul>
                 <a href="index.html">Inicio</a>
                 <a href="conteudo.html">El Niño e La Niña</a>
@@ -22,26 +25,84 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-  
+
+    <main class="g-guia">
+
+        <section class="g-hero">
+            <h2>Guia de estilo</h2>
+            <p class="g-lead">
+                Como o site <strong>Es el Clima</strong> foi desenhado: as cores, as fontes e os
+                componentes que se repetem em todas as páginas. Tudo isso fica no arquivo
+                <code>style.css</code>.
+            </p>
+
         </section>
+
+        <section class="g-secao" id="cores" aria-labelledby="t-cores">
+            <h3 id="t-cores">Cores</h3>
+            <p>Azuis e verde-água, que lembram o oceano, e um amarelo-limão para destacar.</p>
+            <ul class="g-cores">
+                <li><span class="g-amostra" style="--amostra: #80A1F8;"></span><strong>Cabeçalho e rodapé</strong><code>#80A1F8</code></li>
+                <li><span class="g-amostra" style="--amostra: #8AD6D6;"></span><strong>Borda e menu</strong><code>--borda</code></li>
+                <li><span class="g-amostra" style="--amostra: #EEF9F9;"></span><strong>Cartões</strong><code>--card</code></li>
+                <li><span class="g-amostra" style="--amostra: #D6E264;"></span><strong>Destaque</strong><code>--destaque</code></li>
+                <li><span class="g-amostra" style="--amostra: #132442;"></span><strong>Texto</strong><code>--texto</code></li>
+                <li><span class="g-amostra" style="--amostra: #3551A4;"></span><strong>Links e apoio</strong><code>--link</code></li>
+            </ul>
+        </section>
+
+        <!-- ===================== FONTES ===================== -->
+        <section class="g-secao" id="fontes" aria-labelledby="t-fontes">
+            <h3 id="t-fontes">Fontes</h3>
+            <p>Uma fonte de impacto nos títulos e uma fonte limpa nos textos.</p>
+            <div class="g-fontes">
+                <div>
+                    <p class="g-fonte-titulo g-fonte-grande">Nofex</p>
+                    <p>Títulos. Reserva: Impact.</p>
+                </div>
+                <div>
+                    <p class="g-fonte-texto g-fonte-grande">Poppins</p>
+                    <p>Textos. Reserva: system-ui.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== COMPONENTES ===================== -->
+        <section class="g-secao" id="componentes" aria-labelledby="t-componentes">
+            <h3 id="t-componentes">Componentes</h3>
+            <p>Os três elementos que mais aparecem no site.</p>
+            <div class="g-componentes">
+                <div>
+                    <span class="g-pilula">Menu</span>
+                    <p>Link em forma de pílula. Ao passar o mouse, fica amarelo.</p>
+                </div>
+                <div>
+                    <span class="g-cartao">Cartão</span>
+                    <p>Caixa dos textos: fundo claro, borda verde-água e cantos de 12 px.</p>
+                </div>
+                <div>
+                    <span class="g-resposta">Resposta</span>
+                    <p>Botão do quiz. Fica verde se acertar e vermelho se errar.</p>
+                </div>
+            </div>
+        </section>
+
     </main>
-
-
 
     <footer>
         <nav class="roda">
-         <ul>
-           <a href="https://g1.globo.com/meio-ambiente/noticia/2026/05/24/quando-foi-o-ultimo-super-el-nino.ghtml" target="_blank" rel="noopener">g1</a>
-           <a href="https://www.greenpeace.org/brasil/blog/super-el-nino-2026/?utm_source=google&utm_medium=grants&utm_campaign=clima&utm_content=grants_superelnino&utm_term=informar&utm_term=el%20ni%C3%B1o&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=7235609613&hsa_cam=19664562138&hsa_grp=154393105340&hsa_ad=810469438497&hsa_src=g&hsa_tgt=kwd-48894810&hsa_kw=el%20ni%C3%B1o&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=19664562138&gbraid=0AAAAADzBjSPRrRPEooQmXYA5A3c2TYILI&gclid=CjwKCAiAzKvXBhBAEiwABLl9AgkcH08kbX6Fu6uRVzi5Yr_FcmUdh6voyNcCTqRJtJ-9PXe1ySLyURoCgbMQAvD_BwE" target="_blank" rel="noopener">Greenpeace</a>
-           <a href="https://www.ifrc.org/es/articulo/el-nino-que-es-y-que-significa-para-los-desastres" target="_blank" rel="noopener">IFRC</a> 
-           <a href="https://brasilescola.uol.com.br/geografia/el-nino-e-la-nina.htm#O+que+s%C3%A3o+El+Ni%C3%B1o+e+La+Ni%C3%B1a%3F" target="_blank" rel="noopener">Brasil Escola</a>
-         </ul>
-     </nav>
-     <div class="texfim">
-       <p class="textu">© 2026 - Todos os direitos reservados.</p>
-       <p class="textd">Es El clima: conteúdo geograficos</p>
-     </div>
+            <ul>
+                <a href="https://g1.globo.com/meio-ambiente/noticia/2026/05/24/quando-foi-o-ultimo-super-el-nino.ghtml" target="_blank" rel="noopener">g1</a>
+                <a href="https://www.greenpeace.org/brasil/blog/super-el-nino-2026/" target="_blank" rel="noopener">Greenpeace</a>
+                <a href="https://www.ifrc.org/es/articulo/el-nino-que-es-y-que-significa-para-los-desastres" target="_blank" rel="noopener">IFRC</a>
+                <a href="https://brasilescola.uol.com.br/geografia/el-nino-e-la-nina.htm" target="_blank" rel="noopener">Brasil Escola</a>
+            </ul>
+        </nav>
+        <div class="texfim">
+            <p class="textu">© 2026 - Todos os direitos reservados.</p>
+            <p class="textd">Es El clima: conteúdo geograficos</p>
+            <img src="midia/qrcode.jpeg" alt="QR code do site" width="150" height="150">
+        </div>
     </footer>
 </body>
+</html>

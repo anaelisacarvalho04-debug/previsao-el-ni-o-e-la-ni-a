@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Previsão de Fenômenos Climático</title>
+    <title>El Niño e La Niña | Es el Clima</title>
     <link rel="stylesheet" href="style.css">
-     <script src="index.js" defer></script>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
-<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+    <script src="conteudo.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header >
+    <header>
         <h1>Es el Clima</h1>
-        <nav >
+        <nav>
             <ul>
                 <a href="index.html">Inicio</a>
                 <a href="conteudo.html">El Niño e La Niña</a>
@@ -22,42 +22,237 @@
             </ul>
         </nav>
     </header>
-  
-    <main>
-        <p></p>
-        <p></p>
-        <h3>El Niño e La Niña</h3>
-        <p></p>
-        <section>
-                <h4>O Que São e Como Ocorrem?</h4>
-                <p>El Niño é um fênomeno climático natural causado pelo aquecimento anormal das águas superfiiais do Oceano Pacífico Tropical. Entretanto pode se tornar um Super El Niño quando a anomalia de temperaturada superfície do mar ultrapassa +2ºC em relação à média histórica. Já La Niña é seu oposto, causada pelo resfriamento anormal das águas do Pacífico, relacionado a intensificação dos ventos alísios, mas pode durar 3 anos, ocasionando tempo chuvoso no Norte e Nordeste e seca no Sul</p>
-                <h4>Onde Ocorrem?</h4>
-                <p>El Niño e La Niña ocorrem na região equatorial do Oceano Pacífico (na faixa próxima à Linha do Equador), entre a costa da América do Sul e o SUdeste ASiático/Oceania</p>
-                <h4>Como funciona a previsão?</h4>
-                <p>É feita por cientistas metereologistas através do monitoramento contínuo das condições do Oceano Pacífico Equatorial e da atmosfera. Como: a temperatura da superfície do mar e pressão atmosférica, feita pela leitura de probabilidades, usando modelos computacionais e inteligências artificiais</p>
-                <h4>Como é a Leitura de Probabilidades?</h4>
-                <p>Os supercomputadores e a inteligência artificial operam como "laboratórios virtuais", onde a física da Terra é transformada em bilhões de cálculos matemáticos diários. Como o oceano e atmosfera se influenciam mutuamente o tempo todo, os cientistas alimentam esse sistema com dados massivos para projetar o comportamento do El Niño e La ninña. Os modelos climáticos globais dividem o planeta, os oceanos e atmosfera em uma grade tridimensional composta por pequenos cubos virtuais.
-                A IA transformou a metereologia ao complementar ou acelerar as simulações tradicionais, que costumam demorar muitas horas para serem processadas por supercomputadores.
-                Nenhum centro metereológico confia em apenas um modelo. O segredo da previsão confiável está no consenso de múltiplos sistemas, assim opera o CSFv2 (Climate Forecast System v2)</p>
-                <h4>Explicação do El Niño e La Niña:</h4>
-                <video width="640" height="360" controls>
-                    <source src="https://youtu.be/jQ-aI-REsxQ?is=B4RJQlpywbeITvp1">
+
+    <main class="conteudo">
+
+        <h2 class="titulo-pagina">El Niño e La Niña</h2>
+
+        <!-- 1. SITUAÇÃO ATUAL -->
+        <section class="painel painel-status" aria-labelledby="t-status">
+            <p class="selo">Boletim da NOAA de 12 de novembro de 2026: alerta de El Niño em vigor</p>
+            <h3 id="t-status">Onde estamos agora</h3>
+            <p>O El Niño continua se fortalecendo. A NOAA (agência de oceanos e atmosfera dos EUA) vê um evento forte a muito forte como provável até o trimestre janeiro-março de 2027, e as chances de um evento histórico seguem acima de 50%.</p>
+            <div class="indicadores">
+                <div class="indicador">
+                    <strong>+2,5 °C</strong>
+                    <span>Índice Niño-3.4, o principal termômetro do fenômeno</span>
+                </div>
+                <div class="indicador">
+                    <strong>+4,4 °C</strong>
+                    <span>Índice Niño-1+2, junto à costa da América do Sul</span>
+                </div>
+                <div class="indicador">
+                    <strong> >79%</strong>
+                    <span>Chance de El Niño forte a muito forte até jan-mar de 2027</span>
+                </div>
+                <div class="indicador">
+                    <strong>~ 60%</strong>
+                    <span>Chance de superar todos os El Niños desde 1950 (+2,5 °C ou mais, média de 3 meses)</span>
+                </div>
+            </div>
         </section>
+
+        <!-- 2. O QUE SÃO -->
+        <section class="painel" aria-labelledby="t-oque">
+            <h3 id="t-oque">O que são e como ocorrem</h3>
+            <p>El Niño e La Niña são as duas fases extremas de um mesmo ciclo natural do Pacífico tropical, chamado ENSO (El Niño-Oscilação Sul). Em condições normais, os ventos alísios empurram a água quente para o oeste, perto da Indonésia. O que muda entre uma fase e outra é a força desses ventos.</p>
+            <div class="duas-colunas">
+                <div class="coluna coluna-nino">
+                    <h4>El Niño</h4>
+                    <p>Os alísios enfraquecem e a água quente se espalha para o leste, em direção à América do Sul. A chuva se desloca para o Pacífico central e leste e diminui sobre a Indonésia.</p>
+                    <p>Começa quando a anomalia de temperatura do mar passa de <strong>+0,5 °C</strong>. Acima de <strong>+2,0 °C</strong> é considerado muito forte, o chamado Super El Niño.</p>
+                </div>
+                <div class="coluna coluna-nina">
+                    <h4>La Niña</h4>
+                    <p>É o oposto: os alísios ficam mais fortes, a água fria sobe do fundo no Pacífico leste e o oceano esfria de forma anormal.</p>
+                    <p>Começa quando a anomalia fica abaixo de <strong>-0,5 °C</strong>. Em alguns casos dura vários anos seguidos e tende a trazer chuva ao Norte e Nordeste do Brasil e seca ao Sul.</p>
+                </div>
+            </div>
+            <p>Os eventos de El Niño costumam voltar a cada 2 a 7 anos, sem um padrão exato. Depois de um aquecimento, é comum vir um resfriamento, como uma grande onda de água quente indo e voltando pelo Pacífico.</p>
+        </section>
+
+        <!-- 4. COMO SE MEDE -->
+        <section class="painel" aria-labelledby="t-medir">
+            <h3 id="t-medir">Como se mede: do ONI ao RONI</h3>
+            <p>Durante décadas, o índice oficial foi o <strong>ONI</strong>, a média de três meses das anomalias de temperatura do mar no Niño-3.4. Em fevereiro de 2026, o Centro de Previsão Climática da NOAA passou a usar o <strong>RONI</strong> (índice relativo), que desconta o aquecimento de longo prazo dos oceanos. Com isso, os eventos passam a ser classificados de um jeito mais próximo dos impactos realmente observados no tempo.</p>
+            <p>Por exemplo: o El Niño de 2023-2024 continua sendo um El Niño, mas o RONI o mede cerca de 0,6 °C mais fraco que o ONI tradicional.</p>
+            <ul class="escala">
+                <li><span class="ponto ponto-1"></span>Fraco: de +0,5 a +0,9 °C</li>
+                <li><span class="ponto ponto-2"></span>Moderado: de +1,0 a +1,4 °C</li>
+                <li><span class="ponto ponto-3"></span>Forte: de +1,5 a +1,9 °C</li>
+                <li><span class="ponto ponto-4"></span>Muito forte: +2,0 °C ou mais</li>
+            </ul>
+        </section>
+
+        <!-- 5. FERRAMENTAS DIGITAIS (interativo) -->
+        <section class="painel painel-destaque" aria-labelledby="t-ferramentas">
+            <h3 id="t-ferramentas">Como as ferramentas digitais identificam o padrão</h3>
+            <p>Uma previsão de El Niño não nasce de uma única máquina. É uma cadeia de cinco etapas, cada uma com suas ferramentas. Escolha uma etapa para ver como funciona.</p>
+            <div class="etapas" id="etapas" role="tablist" aria-label="Etapas da previsão"></div>
+            <div class="etapa-conteudo" id="etapa-conteudo" role="tabpanel" aria-live="polite"></div>
+        </section>
+
+        <!-- 6. SIMULADOR -->
+        <section class="painel" aria-labelledby="t-sim">
+            <h3 id="t-sim">Teste você mesmo: do dado ao diagnóstico</h3>
+            <p>Os centros climáticos transformam medições em um diagnóstico calculando a média de três meses. Digite três anomalias mensais do Niño-3.4 e veja a classificação. Os valores iniciais são só um exemplo.</p>
+            <form class="simulador" id="simulador" novalidate>
+                <label>Mês 1 (°C)
+                    <input type="number" step="0.1" min="-5" max="5" value="1.4" inputmode="decimal">
+                </label>
+                <label>Mês 2 (°C)
+                    <input type="number" step="0.1" min="-5" max="5" value="1.8" inputmode="decimal">
+                </label>
+                <label>Mês 3 (°C)
+                    <input type="number" step="0.1" min="-5" max="5" value="2.1" inputmode="decimal">
+                </label>
+            </form>
+            <div class="medidor" aria-hidden="true">
+                <div class="medidor-faixa"><div class="medidor-marcador" id="marcador"></div></div>
+                <div class="medidor-rotulos"><span>-2,5 °C</span><span class="rotulo-zero">0</span><span>+3 °C</span></div>
+            </div>
+            <p class="sim-resultado" id="sim-resultado" aria-live="polite"></p>
+            <p class="nota">Simplificação para estudo: o diagnóstico oficial usa o RONI e só declara um evento quando o oceano e a atmosfera mudam juntos, como a pressão do ar, os ventos e a chuva.</p>
+        </section>
+
+        <!-- 8. LIMITES -->
+        <section class="painel" aria-labelledby="t-limites">
+            <h3 id="t-limites">O que as ferramentas ainda não conseguem</h3>
+            <ul class="lista-simples">
+                <li><strong>Probabilidade não é certeza.</strong> Os boletins falam em chances, como 79% ou 60%, justamente porque há incerteza.</li>
+                <li><strong>A primavera do Hemisfério Norte é um ponto fraco.</strong> Previsões feitas nessa época perdem qualidade, a chamada barreira de previsibilidade. Modelos de IA foram bem justamente nesse período, mas o problema não deixou de existir.</li>
+                <li><strong>Sem observação, não há previsão.</strong> A rede de boias do Pacífico passou por uma crise entre 2012 e 2014, quando a devolução de dados caiu para cerca de 40%. Por isso satélites e flutuadores Argo trabalham juntos.</li>
+                <li><strong>A IA aprende com o passado.</strong> Como há poucos El Niños bem medidos, os pesquisadores precisam completar os dados com simulações. Um evento fora do histórico, como o de 2026 pode vir a ser, é um teste difícil para esses modelos.</li>
+            </ul>
+        </section>
+
+        <!-- 9. QUIZ -->
+        <section class="painel" aria-labelledby="t-quiz">
+            <div class="container">
+                <h3 id="t-quiz">Atividade - El Niño e La Niña</h3>
+
+                <div class="pergunta mb-4" data-explicacao="O El Niño é o aquecimento anormal das águas superficiais do Pacífico equatorial. Os ventos alísios enfraquecidos são parte do mecanismo, mas não a definição.">
+                    <p>O que caracteriza o El Niño?</p>
+                    <div class="d-flex flex-column align-items-start gap-2">
+                        <button type="button" class="btn btn-outline-primary opcao" data-certo="true">Aquecimento anormal das águas superficiais do Pacífico equatorial</button>
+                        <button type="button" class="btn btn-outline-primary opcao">Esfriamento anormal das águas do Pacífico</button>
+                        <button type="button" class="btn btn-outline-primary opcao">Aquecimento anormal das águas do Atlântico Norte</button>
+                        <button type="button" class="btn btn-outline-primary opcao">Formação de jazidas</button>
+                    </div>
+                </div>
+
+                <div class="pergunta mb-4" data-explicacao="Com os alísios mais fracos, a água quente deixa de ser empurrada para o oeste e se espalha para o leste.">
+                    <p>O que acontece com os ventos alísios durante um El Niño?</p>
+                    <div class="d-flex flex-column align-items-start gap-2">
+                        <button type="button" class="btn btn-outline-primary opcao">Ficam mais fortes e empurram a água quente para o oeste</button>
+                        <button type="button" class="btn btn-outline-primary opcao" data-certo="true">Enfraquecem e deixam a água quente se espalhar para o leste</button>
+                        <button type="button" class="btn btn-outline-primary opcao">Desaparecem do planeta</button>
+                        <button type="button" class="btn btn-outline-primary opcao">Passam a soprar só no Oceano Atlântico</button>
+                    </div>
+                </div>
+
+                <div class="pergunta mb-4" data-explicacao="Acima de +2 °C de anomalia, o evento é considerado muito forte, o chamado Super El Niño.">
+                    <p>Quando o El Niño pode ser chamado de Super El Niño?</p>
+                    <div class="d-flex flex-column align-items-start gap-2">
+                        <button type="button" class="btn btn-outline-primary opcao">Quando dura menos de um mês</button>
+                        <button type="button" class="btn btn-outline-primary opcao">Quando ocorre somente no Oceano Atlântico</button>
+                        <button type="button" class="btn btn-outline-primary opcao" data-certo="true">Quando a anomalia de temperatura da superfície do mar ultrapassa +2 °C</button>
+                        <button type="button" class="btn btn-outline-primary opcao">Quando os ventos alísios se intensificam</button>
+                    </div>
+                </div>
+
+                <div class="pergunta mb-4" data-explicacao="A La Niña é o resfriamento anormal do Pacífico, ligado a ventos alísios mais intensos.">
+                    <p>O que causa a La Niña?</p>
+                    <div class="d-flex flex-column align-items-start gap-2">
+                        <button type="button" class="btn btn-outline-primary opcao">Aquecimento anormal das águas do Pacífico</button>
+                        <button type="button" class="btn btn-outline-primary opcao">Enfraquecimento dos ventos alísios</button>
+                        <button type="button" class="btn btn-outline-primary opcao">Erupções vulcânicas no Atlântico</button>
+                        <button type="button" class="btn btn-outline-primary opcao" data-certo="true">Resfriamento anormal das águas do Pacífico</button>
+                    </div>
+                </div>
+
+                <div class="pergunta mb-4" data-explicacao="Os dois fenômenos acontecem na faixa equatorial do Pacífico, entre a América do Sul e a Oceania.">
+                    <p>Onde ocorrem o El Niño e a La Niña?</p>
+                    <div class="d-flex flex-column align-items-start gap-2">
+                        <button type="button" class="btn btn-outline-primary opcao" data-certo="true">Na região equatorial do Oceano Pacífico</button>
+                        <button type="button" class="btn btn-outline-primary opcao">No Polo Norte</button>
+                        <button type="button" class="btn btn-outline-primary opcao">No Mar Mediterrâneo</button>
+                        <button type="button" class="btn btn-outline-primary opcao">No Oceano Atlântico Sul</button>
+                    </div>
+                </div>
+
+                <div class="pergunta mb-4" data-explicacao="Os flutuadores Argo medem temperatura e salinidade da água até cerca de 2.000 m de profundidade.">
+                    <p>Qual ferramenta mede temperatura e salinidade do oceano até cerca de 2.000 m de profundidade?</p>
+                    <div class="d-flex flex-column align-items-start gap-2">
+                        <button type="button" class="btn btn-outline-primary opcao">Sismógrafos</button>
+                        <button type="button" class="btn btn-outline-primary opcao">Radares de aeroporto</button>
+                        <button type="button" class="btn btn-outline-primary opcao" data-certo="true">Flutuadores Argo</button>
+                        <button type="button" class="btn btn-outline-primary opcao">Pluviômetros</button>
+                    </div>
+                </div>
+
+                <div class="pergunta mb-4" data-explicacao="Rodando o modelo várias vezes com pequenas variações iniciais (ensemble), os cientistas estimam a probabilidade de cada cenário.">
+                    <p>Por que os centros climáticos rodam vários cenários do mesmo modelo (ensembles)?</p>
+                    <div class="d-flex flex-column align-items-start gap-2">
+                        <button type="button" class="btn btn-outline-primary opcao">Para dispensar o uso de supercomputadores</button>
+                        <button type="button" class="btn btn-outline-primary opcao">Porque um único modelo é sempre exato</button>
+                        <button type="button" class="btn btn-outline-primary opcao">Para substituir os satélites</button>
+                        <button type="button" class="btn btn-outline-primary opcao" data-certo="true">Para estimar a probabilidade de cada cenário</button>
+                    </div>
+                </div>
+
+                <div class="pergunta mb-4" data-explicacao="A IA complementa os modelos físicos: encontra padrões em décadas de dados, corrige erros sistemáticos e acelera as projeções. Ela depende de dados observados e não elimina a incerteza.">
+                    <p>Qual é o papel da inteligência artificial na previsão do El Niño?</p>
+                    <div class="d-flex flex-column align-items-start gap-2">
+                        <button type="button" class="btn btn-outline-primary opcao">Substituir todos os dados observados</button>
+                        <button type="button" class="btn btn-outline-primary opcao" data-certo="true">Complementar os modelos físicos, achando padrões e corrigindo vieses</button>
+                        <button type="button" class="btn btn-outline-primary opcao">Controlar o clima do Pacífico</button>
+                        <button type="button" class="btn btn-outline-primary opcao">Eliminar toda a incerteza</button>
+                    </div>
+                </div>
+
+                <div class="acoes-quiz">
+                    <button type="button" id="responder" class="btn btn-primary" disabled>Responder</button>
+                    <button type="button" id="refazer" class="btn btn-outline-secondary" hidden>Tentar de novo</button>
+                </div>
+                <p id="resultado" class="mt-3" aria-live="polite"></p>
+            </div>
+        </section>
+
+        <!-- 10. DADOS ABERTOS E FONTES -->
+        
+            <h3 id="t-fontes">Acompanhe os dados e confira as fontes</h3>
+            <p>Todas as ferramentas abaixo são públicas. Os números desta página vêm delas e podem mudar nas próximas atualizações.</p>
+            <ul class="lista-links">
+                <li><a href="https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.html" target="_blank" rel="noopener">NOAA CPC: discussão mensal sobre o ENSO</a> (base dos números da seção "Onde estamos agora")</li>
+                <li><a href="https://www.drought.gov/news/new-noaa-el-nino-southern-oscillation-index-supports-drought-early-warning-2026-03-11" target="_blank" rel="noopener">NOAA / Drought.gov: a adoção do RONI</a></li>
+                <li><a href="https://eos.org/articles/artificial-intelligence-may-help-predict-el-nino" target="_blank" rel="noopener">Eos (AGU): IA prevê El Niño com 18 meses de antecedência</a> (estudo de Ham et al., Nature, 2019)</li>
+                <li><a href="https://celebrating200years.noaa.gov/magazine/enso/" target="_blank" rel="noopener">NOAA: o sistema de observação do ENSO</a> (boias TAO/TRITON)</li>
+                <li><a href="https://whoi.edu/what-we-do/explore/ocean-observatories/about-ocean-observatories/types-of-observatories/global/" target="_blank" rel="noopener">WHOI: flutuadores Argo e observatórios oceânicos</a></li>
+                <li><a href="https://arxiv.org/pdf/2607.28220" target="_blank" rel="noopener">arXiv: comparação de emuladores de tempo baseados em IA</a> (Pangu-Weather, FuXi, AIFS, GraphCast, Aurora)</li>
+                <li><a href="https://revistacultivar.com.br/noticias/el-nino-muito-forte-deve-intensificar-extremos-no-verao-brasileiro" target="_blank" rel="noopener">Revista Cultivar: Painel El Niño 2026-2027 do Inmet</a></li>
+                <li><a href="https://www.gov.br/cemaden/pt-br" target="_blank" rel="noopener">Cemaden</a>, <a href="https://portal.inmet.gov.br" target="_blank" rel="noopener">Inmet</a> e <a href="https://www.gov.br/ana" target="_blank" rel="noopener">ANA</a>: monitoramento no Brasil</li>
+            </ul>
+
+
     </main>
-    
+
     <footer>
+
         <nav class="roda">
          <ul>
            <a href="https://g1.globo.com/meio-ambiente/noticia/2026/05/24/quando-foi-o-ultimo-super-el-nino.ghtml" target="_blank" rel="noopener">g1</a>
-           <a href="https://www.greenpeace.org/brasil/blog/super-el-nino-2026/?utm_source=google&utm_medium=grants&utm_campaign=clima&utm_content=grants_superelnino&utm_term=informar&utm_term=el%20ni%C3%B1o&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=7235609613&hsa_cam=19664562138&hsa_grp=154393105340&hsa_ad=810469438497&hsa_src=g&hsa_tgt=kwd-48894810&hsa_kw=el%20ni%C3%B1o&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=19664562138&gbraid=0AAAAADzBjSPRrRPEooQmXYA5A3c2TYILI&gclid=CjwKCAiAzKvXBhBAEiwABLl9AgkcH08kbX6Fu6uRVzi5Yr_FcmUdh6voyNcCTqRJtJ-9PXe1ySLyURoCgbMQAvD_BwE" target="_blank" rel="noopener">Greenpeace</a>
-           <a href="https://www.ifrc.org/es/articulo/el-nino-que-es-y-que-significa-para-los-desastres" target="_blank" rel="noopener">IFRC</a> 
-           <a href="https://brasilescola.uol.com.br/geografia/el-nino-e-la-nina.htm#O+que+s%C3%A3o+El+Ni%C3%B1o+e+La+Ni%C3%B1a%3F" target="_blank" rel="noopener">Brasil Escola</a>
+           <a href="https://www.greenpeace.org/brasil/blog/super-el-nino-2026/" target="_blank" rel="noopener">Greenpeace</a>
+           <a href="https://www.ifrc.org/es/articulo/el-nino-que-es-y-que-significa-para-los-desastres" target="_blank" rel="noopener">IFRC</a>
+           <a href="https://brasilescola.uol.com.br/geografia/el-nino-e-la-nina.htm" target="_blank" rel="noopener">Brasil Escola</a>
          </ul>
      </nav>
      <div class="texfim">
        <p class="textu">© 2026 - Todos os direitos reservados.</p>
-       <p class="textd">Es El clima: conteúdo geograficos</p>
+       <p class="textd">Es El clima: conteúdo geográfico</p>
+       <img src="midia/qrcode.jpeg" alt="QR Code que leva ao site" width="150" height="150">
      </div>
     </footer>
 
 </body>
+</html>

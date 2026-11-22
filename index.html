@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Previsão de Fenômenos Climático</title>
+    <title>Es el Clima | Previsão de El Niño e La Niña</title>
     <link rel="stylesheet" href="style.css">
-     <script src="index.js" defer></script>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
-<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
-    <header class=" container">
+    <header>
         <h1>Es el Clima</h1>
-        <nav >
-            <ul><a href="index.html">Inicio</a>
+        <nav>
+            <ul>
+                <a href="index.html">Inicio</a>
                 <a href="conteudo.html">El Niño e La Niña</a>
                 <a href="equipe.html">Equipe</a>
                 <a href="grafico.html">Grafico</a>
@@ -22,29 +21,65 @@
         </nav>
     </header>
 
-    <img src="midia/fotoini.jpg" alt="o que o El nino causa">
+    <main class="inicio">
 
-    <aside class="container">
-    </aside>
+        <!-- ===================== ABERTURA ===================== -->
+        <section class="i-hero">
+            <p class="i-etiqueta">Es el Clima · Trabalho PL1 · 2026</p>
+            <h2>Previsão de El Niño e La Niña</h2>
+            <p class="i-lead">
+                Como esses dois fenômenos do Oceano Pacífico se formam, onde acontecem,
+                como são previstos e o que mudam no clima do Brasil.
+            </p>
+            <a class="i-botao" href="conteudo.html">Explorar o conteúdo</a>
+            <img class="i-capa" src="midia/fotoini.jpg" alt="Rua tomada por lama e entulho depois de uma enchente">
+        </section>
 
-    <main class="resumo">
-        <section  id="containerC" >
+        <!-- ===================== POR QUE ESTUDAR ===================== -->
+        <section class="i-secao" aria-labelledby="t-porque">
+            <h3 id="t-porque">Por que estudar o El Niño e a La Niña?</h3>
+            <p>
+                São mudanças naturais na temperatura do Pacífico que alteram a chuva e o calor
+                em vários continentes. No Brasil, costumam trazer chuva demais ao Sul e seca ao
+                Norte e Nordeste.
+            </p>
+            <p>
+                Em 2026 um El Niño forte está em desenvolvimento. Entender como ele é previsto
+                ajuda a se preparar para enchentes, secas e queimadas.
+            </p>
+        </section>
+
+        <!-- ===================== NÚMEROS (montados pelo index.js) ===================== -->
+        <section class="i-secao" aria-labelledby="t-numeros">
+            <h3 id="t-numeros">El Niño em números</h3>
+            <div class="i-numeros" id="numeros"></div>
+        </section>
+
+        <!-- ===================== EXPLORE ===================== -->
+        <section class="i-secao" aria-labelledby="t-explore">
+            <h3 id="t-explore">Explore o site</h3>
+            <ul class="i-links">
+                <li><a href="conteudo.html">El Niño e La Niña</a>: o que são, como são previstos e um quiz para testar o que aprendeu.</li>
+                <li><a href="grafico.html">Gráfico</a>: as temperaturas do mar e o efeito na chuva em cada região do Brasil.</li>
+                <li><a href="equipe.html">Equipe</a>: quem fez o projeto e o que cada pessoa criou.</li>
+            </ul>
         </section>
     </main>
 
-
-    <footer class="container">
+    <footer>
         <nav class="roda">
-         <ul>
-           <a href="https://g1.globo.com/meio-ambiente/noticia/2026/05/24/quando-foi-o-ultimo-super-el-nino.ghtml" target="_blank" rel="noopener">g1</a>
-           <a href="https://www.greenpeace.org/brasil/blog/super-el-nino-2026/?utm_source=google&utm_medium=grants&utm_campaign=clima&utm_content=grants_superelnino&utm_term=informar&utm_term=el%20ni%C3%B1o&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=7235609613&hsa_cam=19664562138&hsa_grp=154393105340&hsa_ad=810469438497&hsa_src=g&hsa_tgt=kwd-48894810&hsa_kw=el%20ni%C3%B1o&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=19664562138&gbraid=0AAAAADzBjSPRrRPEooQmXYA5A3c2TYILI&gclid=CjwKCAiAzKvXBhBAEiwABLl9AgkcH08kbX6Fu6uRVzi5Yr_FcmUdh6voyNcCTqRJtJ-9PXe1ySLyURoCgbMQAvD_BwE" target="_blank" rel="noopener">Greenpeace</a>
-           <a href="https://www.ifrc.org/es/articulo/el-nino-que-es-y-que-significa-para-los-desastres" target="_blank" rel="noopener">IFRC</a> 
-           <a href="https://brasilescola.uol.com.br/geografia/el-nino-e-la-nina.htm#O+que+s%C3%A3o+El+Ni%C3%B1o+e+La+Ni%C3%B1a%3F" target="_blank" rel="noopener">Brasil Escola</a>
-         </ul>
-     </nav>
-     <div class="texfim">
-       <p class="textu">© 2026 - Todos os direitos reservados.</p>
-       <p class="textd">Es El clima: conteúdo geograficos</p>
+            <ul>
+                <a href="https://g1.globo.com/meio-ambiente/noticia/2026/05/24/quando-foi-o-ultimo-super-el-nino.ghtml" target="_blank" rel="noopener">g1</a>
+                <a href="https://www.greenpeace.org/brasil/blog/super-el-nino-2026/" target="_blank" rel="noopener">Greenpeace</a>
+                <a href="https://www.ifrc.org/es/articulo/el-nino-que-es-y-que-significa-para-los-desastres" target="_blank" rel="noopener">IFRC</a>
+                <a href="https://brasilescola.uol.com.br/geografia/el-nino-e-la-nina.htm" target="_blank" rel="noopener">Brasil Escola</a>
+            </ul>
+        </nav>
+        <div class="texfim">
+            <p class="textu">© 2026 - Todos os direitos reservados.</p>
+            <p class="textd">Es El clima: conteúdo geograficos</p>
+            <img src="midia/qrcode.jpeg" alt="QR code do site" width="150" height="150">
+        </div>
     </footer>
 </body>
 </html>

@@ -13,6 +13,7 @@ t.innerText = ' Equipe jojo';
 pagmain.insertBefore(t, pagsec);
 
 const divcont1 = document.createElement ('div');
+divcont1.classList.add('cardmain');
 const nome1 = document.createElement ('h3')
 const pcont1= document.createElement ('p');
 nome1.innerText = 'Marcos-Desenvolvedor Designer UI/UX';
@@ -24,6 +25,7 @@ pagsec.appendChild(divcont1);
 divcont1.appendChild(foto1);
 
 const divcont2 = document.createElement ('div');
+divcont2.classList.add('cardmain');
 const nome2 = document.createElement ('h3');
 const pcont2 = document.createElement ('p');
 nome2.innerText = 'Ana Elisa-Arquiteta Front-End';
@@ -36,6 +38,7 @@ divcont2.appendChild(foto2);
 
 
 const divcont3 = document.createElement ('div');
+divcont3.classList.add('cardmain');
 const nome3 = document.createElement ('h3');
 const pcont3 = document.createElement ('p');
 nome3.innerText = 'Ian-Desenvolvedor de Interatividade e Animações';
@@ -48,6 +51,7 @@ divcont3.appendChild(foto3);
 
 
 const divcont4 = document.createElement ('div');
+divcont4.classList.add('cardmain');
 const nome4 = document.createElement ('h3');
 const pcont4 = document.createElement ('p');
 nome4.innerText = 'Miguel Sodré-Pesquisador de Conteúdo e Desenvolvedor Front-End';
@@ -60,6 +64,7 @@ divcont4.appendChild(foto4);
 
 
 const divcont5 = document.createElement ('div');
+divcont5.classList.add('cardmain');
 const nome5 = document.createElement ('h3');
 const pcont5 = document.createElement ('p');
 nome5.innerText = 'Daniel- O conector da Plataforma';
